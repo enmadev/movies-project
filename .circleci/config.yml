@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: "Install dependencies"
-          command: "pip install unittest"
+          command: "python -m pip install unittest"
       - run:
           name: "Push test"
           command:  "python -m unittest test.py"
