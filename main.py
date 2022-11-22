@@ -2,6 +2,7 @@ MENU_PROMPT = "Enter 'a' to add a movie, 'l' to see your movies, 'f' to find you
 movies = []
 
 
+
 def add_movie():
     title = input("Enter the movie title:")
     director = input("Enter the movie director:")
