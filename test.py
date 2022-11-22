@@ -1,5 +1,6 @@
 import unittest
-from main import *
+from main import add_movie
+from main import movies
 
 
 class TestMovies(unittest.TestCase):
