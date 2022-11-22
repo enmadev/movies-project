@@ -15,8 +15,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Say hello"
-          command: "echo Hello, World!"
+          name: "Install dependencies"
+          command: "pip install unittest"
       - run:
           name: "Push test"
           command:  "python -m unittest test.py"
