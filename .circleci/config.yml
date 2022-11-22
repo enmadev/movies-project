@@ -18,9 +18,6 @@ jobs:
           name: "Install lint dependencies"
           command: "python -m pip install pycodestyle"
       - run:
-          name: "Lint"
-          command: "python -m pip install unittest"
-      - run:
           name: "Push test"
           command: |
             set +e 
